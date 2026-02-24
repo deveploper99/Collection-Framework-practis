@@ -14,8 +14,12 @@ public class Sorting {
         Collections.sort(numbers,Collections.reverseOrder());
         System.out.println("the sorting Numbers: "+numbers);
 
-        ListIterator<Integer> iterator = numbers.listIterator();
 
+        numbers.sort((a,b) -> a-b);
+        System.out.println("lambda"+numbers);
+
+
+        ListIterator<Integer> iterator = numbers.listIterator();
         while (iterator.hasNext()){
             int index = iterator.previousIndex();
             int index1 = iterator.nextIndex();
