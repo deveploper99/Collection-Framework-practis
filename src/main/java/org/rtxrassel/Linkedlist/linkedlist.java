@@ -1,6 +1,5 @@
 package org.rtxrassel.Linkedlist;
 
-import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
@@ -14,6 +13,8 @@ public class linkedlist {
         linkedList.addFirst("Habibur Rahman");
         linkedList.addLast("Karimul Islam");
         linkedList.removeFirst();
+
+
 
 
 
